@@ -5,7 +5,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
+  - [The challenge] Product preview card component
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
