@@ -7,6 +7,7 @@
     
     /* color schemes */
     --dark-cyan : hsl(158, 36%, 37%);
+    --dark-cyan-active : hsl(158, 36%, 27%);
     --cream : hsl(30, 38%, 92%);
     --very-dark-blue : hsl(212, 21%, 14%);
     --dark-greyish-blue : hsl(228, 12%, 48%);
@@ -61,6 +62,7 @@ p{
 }
 
 .cart-btn {
+    cursor: pointer;
     display: flex;
     background-color: var(--dark-cyan);
     color: var(--white);
@@ -96,6 +98,10 @@ p{
 .desc{
     color : var(--dark-greyish-blue);
     line-height: 1.6;
+}
+
+.cart-btn:hover{
+    background-color: var(--dark-cyan-active);
 }
 
 @media (min-width : 376px) {
