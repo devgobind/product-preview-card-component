@@ -39,15 +39,15 @@ p{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    border-top-right-radius: 1em;
-    border-top-left-radius: 1em;
+    border-top-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
 }
 
 .description {
     background-color: var(--white);
     padding: 1em 1.5em;
-    border-bottom-left-radius: 1em;
-    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
 }
 
 .btm-pad{
@@ -96,4 +96,32 @@ p{
 .desc{
     color : var(--dark-greyish-blue);
     line-height: 1.6;
+}
+
+@media (min-width : 376px) {
+    main{
+        display : flex;
+        justify-content: center;
+        margin: 7em 0;
+    }
+
+    .image {
+        width: 17%;
+        background-image: url(./images/image-product-desktop.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 27em;
+        border-bottom-left-radius: 0.5em;
+        border-top-right-radius: 0;
+    }
+
+    .description{
+        width: 19%;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 0.5em;
+    }
+
+    .perfume{
+        padding-top: 1em;
+    }
 }
